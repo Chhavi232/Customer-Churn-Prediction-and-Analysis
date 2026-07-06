@@ -41,38 +41,34 @@ The project covers:
 # 📂 Project Structure
 
 ```text
-Customer_churn_analytics/
+Customer-Churn-Prediction-and-Analysis/
 │
-├── Dataset/
-├── cleaned_data/
-├── notebook/
-├── customer_churn.sql
-├── Churn_Dashboard.pbix
-├── Churn_Dashboard.pdf
+├── Churn_Dashboard.pbix                 # Power BI Dashboard
+├── Churn_Dashboard.pdf                  # Dashboard PDF
+├── Churn_Dashboard.png                  # Dashboard Preview
+├── customer_churn.sql                   # SQL Queries
+├── customer_churn_analysis-2.ipynb      # Python Analysis & Machine Learning
+├── Telco_customer_churn.csv             # Original Dataset
+├── telco_customer_churn_clean.csv       # Cleaned Dataset
 └── README.md
 ```
 
 ---
 
-# 📊 SQL Analysis
+## 🗄️ SQL Analysis
 
-Performed SQL queries to analyze customer churn and business performance.
+The project includes SQL scripts used to create the database, import customer data, and perform business analysis.
 
-### Key Analysis
-
-- Customer distribution
-- Churn percentage
-- Revenue analysis
-- Contract-wise churn
-- Payment method analysis
-- Internet service analysis
-- Senior citizen analysis
-- Monthly charges analysis
-- Tenure analysis
-- Top churn reasons
-- Revenue loss analysis
-
-**Total SQL Queries:** **37+**
+### SQL Tasks Performed
+- Database and table creation
+- Data import and preprocessing
+- Customer churn analysis using SQL
+- Revenue and customer segmentation analysis
+- Aggregations using GROUP BY
+- Filtering using WHERE and HAVING
+- Window functions
+- Common Table Expressions (CTEs)
+- Business insights through SQL queries
 
 ---
 
@@ -165,19 +161,19 @@ The dashboard enables users to interactively explore churn trends, customer beha
 # 📷 Dashboard Preview
 
 
-![Customer Churn Dashboard](Churn_Dashboard.pdf)
+![Customer Churn Dashboard](Churn_Dashboard.png)
 
 ---
 
-# 🚀 How to Run the Project
+## 🚀 How to Run
 
-### 1. Clone the Repository
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/Customer-Churn-Prediction-and-Analysis.git
+git clone https://github.com/Chhavi232/Customer-Churn-Prediction-and-Analysis.git
 ```
 
-### 2. Install Required Libraries
+### 2. Install required libraries
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
@@ -185,19 +181,23 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 
 ### 3. Open the Jupyter Notebook
 
-Run all notebook cells to perform data preprocessing, EDA, and machine learning.
+Open
 
-### 4. Open Power BI Dashboard
+```
+customer_churn_analysis-2.ipynb
+```
 
-Open:
+and run all cells.
+
+### 4. Open the Dashboard
+
+Open
 
 ```
 Churn_Dashboard.pbix
 ```
 
 using Microsoft Power BI Desktop.
-
----
 
 # 🎯 Skills Demonstrated
 
