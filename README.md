@@ -41,21 +41,15 @@ The project covers:
 # 📂 Project Structure
 
 ```text
-Customer-Churn-Prediction-and-Analysis/
+Customer_churn_analytics/
 │
-├── dataset/
-│   ├── customer_churn.csv
-│   └── customer_churn_clean.csv
-│
-├── notebooks/
-│   └── Customer_Churn_Analysis.ipynb
-│
-├── screenshots/
-│   └── dashboard.png
-│
+├── Dataset/
+├── cleaned_data/
+├── notebook/
+├── customer_churn.sql
 ├── Churn_Dashboard.pbix
 ├── Churn_Dashboard.pdf
-├── README.md
+└── README.md
 ```
 
 ---
